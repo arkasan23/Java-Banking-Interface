@@ -25,16 +25,7 @@ public class CommandProcessor {
 		this.transferProcessor = new TransferProcessor(bank);
 	}
 
-	public void processCommand(String command) {
-
-		String[] arguments = command.split(" ");
-
-		for (int i = 0; i < arguments.length; i++) {
-			arguments[i] = arguments[i].toLowerCase();
-		}
-		commandType = arguments[0];
-		commandParsed = arguments;
-
+	private void switchStatement(String commandType, String command) {
 		switch (commandType) {
 		case "create":
 			createProcessor.processCommand(commandParsed);
@@ -54,6 +45,19 @@ public class CommandProcessor {
 		default:
 			break;
 		}
+	}
+
+	public void processCommand(String command) {
+
+		String[] arguments = command.split(" ");
+
+		for (int i = 0; i < arguments.length; i++) {
+			arguments[i] = arguments[i].toLowerCase();
+		}
+		commandType = arguments[0];
+		commandParsed = arguments;
+
+		switchStatement(commandType, command);
 
 	}
 

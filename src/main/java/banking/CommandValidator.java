@@ -20,16 +20,7 @@ public class CommandValidator {
 		transfer = new TransferValidator(bank);
 	}
 
-	public boolean isCommandValid(String command) {
-
-		String[] arguments = command.split(" ");
-
-		for (int i = 0; i < arguments.length; i++) {
-			arguments[i] = arguments[i].toLowerCase();
-		}
-		commandType = arguments[0];
-		commandParsed = arguments;
-
+	private boolean switchStatement() {
 		switch (commandType) {
 		case "create":
 			return create.isCommandValid(commandParsed);
@@ -44,6 +35,19 @@ public class CommandValidator {
 		default:
 			return false;
 		}
+	}
+
+	public boolean isCommandValid(String command) {
+
+		String[] arguments = command.split(" ");
+
+		for (int i = 0; i < arguments.length; i++) {
+			arguments[i] = arguments[i].toLowerCase();
+		}
+		commandType = arguments[0];
+		commandParsed = arguments;
+
+		return switchStatement();
 
 	}
 
