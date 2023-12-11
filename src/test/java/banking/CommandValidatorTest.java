@@ -15,6 +15,8 @@ public class CommandValidatorTest {
 		bank = new Bank();
 		commandValidator = new CommandValidator(bank);
 		Checking checking = new Checking(5, 87654321);
+		Saving saving = new Saving(2, 11111111);
+		bank.addAccount(saving);
 		bank.addAccount(checking);
 	}
 
@@ -26,5 +28,10 @@ public class CommandValidatorTest {
 	@Test
 	public void deposit_command() {
 		assertTrue(commandValidator.isCommandValid("Deposit 87654321 50"));
+	}
+
+	@Test
+	public void withdraw_command() {
+		assertTrue(commandValidator.isCommandValid("Withdraw 87654321 100"));
 	}
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.CommandValidatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-11T18:20:06" hostname="DESKTOP-2SPJV76" time="0.008">
+<testsuite name="banking.CommandValidatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-11T18:36:33" hostname="DESKTOP-2SPJV76" time="0.009">
   <properties/>
-  <testcase name="account_creation_command()" classname="banking.CommandValidatorTest" time="0.007"/>
-  <testcase name="deposit_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="withdraw_command()" classname="banking.CommandValidatorTest" time="0.008"/>
+  <testcase name="account_creation_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="deposit_command()" classname="banking.CommandValidatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

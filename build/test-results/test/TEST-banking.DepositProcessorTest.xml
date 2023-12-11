@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.DepositProcessorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-12-11T18:20:06" hostname="DESKTOP-2SPJV76" time="0.004">
+<testsuite name="banking.DepositProcessorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-12-11T18:36:33" hostname="DESKTOP-2SPJV76" time="0.005">
   <properties/>
   <testcase name="deposit_max_deposit_amount_for_saving()" classname="banking.DepositProcessorTest" time="0.0"/>
   <testcase name="deposit_into_saving()" classname="banking.DepositProcessorTest" time="0.0"/>
   <testcase name="deposit_twice_in_same_account()" classname="banking.DepositProcessorTest" time="0.0"/>
   <testcase name="deposit_into_checking()" classname="banking.DepositProcessorTest" time="0.0"/>
   <testcase name="deposit_max_deposit_amount_for_checking()" classname="banking.DepositProcessorTest" time="0.0"/>
-  <testcase name="deposit_zero()" classname="banking.DepositProcessorTest" time="0.001"/>
+  <testcase name="deposit_zero()" classname="banking.DepositProcessorTest" time="0.0"/>
   <testcase name="deposit_three_times_in_same_account()" classname="banking.DepositProcessorTest" time="0.0"/>
   <testcase name="deposit_into_account_with_money_already()" classname="banking.DepositProcessorTest" time="0.0"/>
   <testcase name="deposit_into_seperate_accounts()" classname="banking.DepositProcessorTest" time="0.0"/>

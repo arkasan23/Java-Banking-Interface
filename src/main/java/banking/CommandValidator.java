@@ -42,11 +42,7 @@ public class CommandValidator {
 
 	public boolean isCommandValid(String command) {
 
-		String[] arguments = command.split(" ");
-
-		for (int i = 0; i < arguments.length; i++) {
-			arguments[i] = arguments[i].toLowerCase();
-		}
+		String[] arguments = command.toLowerCase().split(" ");
 
 		return switchStatement(arguments);
 
