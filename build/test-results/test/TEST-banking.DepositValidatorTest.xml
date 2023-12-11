@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.DepositValidatorTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2023-12-11T07:33:08" hostname="DESKTOP-2SPJV76" time="0.01">
+<testsuite name="banking.DepositValidatorTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2023-12-11T18:20:06" hostname="DESKTOP-2SPJV76" time="0.017">
   <properties/>
-  <testcase name="deposit_into_string()" classname="banking.DepositValidatorTest" time="0.001"/>
-  <testcase name="deposit_into_account_that_does_not_exist()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="deposit_into_string()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="deposit_into_account_that_does_not_exist()" classname="banking.DepositValidatorTest" time="0.001"/>
   <testcase name="depost_in_same_account_twice()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_into_checking_account()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="deposit_into_checking_account()" classname="banking.DepositValidatorTest" time="0.001"/>
   <testcase name="depositing_2500_in_saving_account()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="depositing_more_than_1000_in_checking_account()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="misspelled_deposit()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="misspelled_deposit()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="depost_in_same_account_three_times()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="depositing_1000_in_checking_account()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="depositing_negative_amount()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="depositing_negative_amount()" classname="banking.DepositValidatorTest" time="0.001"/>
   <testcase name="test()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="depositing_zero_amount()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="deposit_twice()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="depositing_1500_in_saving_account()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="case_insensitivte()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="account_id_is_less_than_8_digits()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="deposit_into_CD()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="account_id_is_less_than_8_digits()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="deposit_into_CD()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="depositing_more_than_2500_in_saving_account()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="account_id_is_more_than_8_digits()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="amount_is_a_string()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="amount_is_a_string()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="only_deposit_and_acountid_command()" classname="banking.DepositValidatorTest" time="0.0"/>
   <testcase name="only_id_command()" classname="banking.DepositValidatorTest" time="0.0"/>
-  <testcase name="depositing_500_in_checking_account()" classname="banking.DepositValidatorTest" time="0.001"/>
-  <testcase name="only_deposit_command()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="depositing_500_in_checking_account()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="only_deposit_command()" classname="banking.DepositValidatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

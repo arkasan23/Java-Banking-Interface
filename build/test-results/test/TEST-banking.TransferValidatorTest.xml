@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.TransferValidatorTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2023-12-11T07:33:09" hostname="DESKTOP-2SPJV76" time="0.01">
+<testsuite name="banking.TransferValidatorTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2023-12-11T18:20:06" hostname="DESKTOP-2SPJV76" time="0.015">
   <properties/>
-  <testcase name="amount_is_in_words()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="amount_is_in_words()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="cd_cannot_be_apart_of_toId()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="cannot_transfer_more_than_2500_into_saving()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="transfer_to_same_account()" classname="banking.TransferValidatorTest" time="0.001"/>
@@ -9,23 +9,23 @@
   <testcase name="checking_withdraw_400()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="toID_is_not_8_digits()" classname="banking.TransferValidatorTest" time="0.001"/>
   <testcase name="cannot_transfer_more_than_1000_into_checking()" classname="banking.TransferValidatorTest" time="0.0"/>
-  <testcase name="cd_cannot_be_apart_of_fromId()" classname="banking.TransferValidatorTest" time="0.0"/>
-  <testcase name="transfer_mispelled()" classname="banking.TransferValidatorTest" time="0.0"/>
+  <testcase name="cd_cannot_be_apart_of_fromId()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="transfer_mispelled()" classname="banking.TransferValidatorTest" time="0.001"/>
   <testcase name="only_transfer_command()" classname="banking.TransferValidatorTest" time="0.0"/>
-  <testcase name="without_amount()" classname="banking.TransferValidatorTest" time="0.0"/>
+  <testcase name="without_amount()" classname="banking.TransferValidatorTest" time="0.001"/>
   <testcase name="transfer_between_saving_and_checking()" classname="banking.TransferValidatorTest" time="0.0"/>
-  <testcase name="case_insenstive()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="case_insenstive()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="transfer_between_saving_and_saving()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="transfer_twice_from_same_account()" classname="banking.TransferValidatorTest" time="0.001"/>
   <testcase name="transfer_between_checking_and_checking()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="checking_cannot_withdraw_more_than_400()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="fromId_does_not_exist()" classname="banking.TransferValidatorTest" time="0.0"/>
-  <testcase name="transfer_1000_into_checking()" classname="banking.TransferValidatorTest" time="0.0"/>
+  <testcase name="transfer_1000_into_checking()" classname="banking.TransferValidatorTest" time="0.001"/>
   <testcase name="transfer_extra_arguments()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="only_transfer_and_fromid()" classname="banking.TransferValidatorTest" time="0.0"/>
   <testcase name="transfer_between_checking_and_saving()" classname="banking.TransferValidatorTest" time="0.001"/>
-  <testcase name="all_string_command()" classname="banking.TransferValidatorTest" time="0.0"/>
-  <testcase name="toId_does_not_exist()" classname="banking.TransferValidatorTest" time="0.0"/>
+  <testcase name="all_string_command()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="toId_does_not_exist()" classname="banking.TransferValidatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

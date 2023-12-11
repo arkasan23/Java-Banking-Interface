@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.CreateProcesserTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-12-11T07:33:08" hostname="DESKTOP-2SPJV76" time="0.006">
+<testsuite name="banking.CreateProcesserTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-12-11T18:20:06" hostname="DESKTOP-2SPJV76" time="0.009">
   <properties/>
-  <testcase name="create_saving()" classname="banking.CreateProcesserTest" time="0.0"/>
-  <testcase name="cd_max_amount()" classname="banking.CreateProcesserTest" time="0.0"/>
+  <testcase name="create_saving()" classname="banking.CreateProcesserTest" time="0.001"/>
+  <testcase name="cd_max_amount()" classname="banking.CreateProcesserTest" time="0.001"/>
   <testcase name="case_insensitive()" classname="banking.CreateProcesserTest" time="0.0"/>
   <testcase name="create_a_account_with_two_account_in_bank_already()" classname="banking.CreateProcesserTest" time="0.0"/>
-  <testcase name="create_a_account_with_three_account_in_bank_already()" classname="banking.CreateProcesserTest" time="0.0"/>
+  <testcase name="create_a_account_with_three_account_in_bank_already()" classname="banking.CreateProcesserTest" time="0.001"/>
   <testcase name="create_cd()" classname="banking.CreateProcesserTest" time="0.001"/>
   <testcase name="zero_apr()" classname="banking.CreateProcesserTest" time="0.0"/>
   <testcase name="max_apr()" classname="banking.CreateProcesserTest" time="0.0"/>
   <testcase name="create_three_accounts_in_a_row()" classname="banking.CreateProcesserTest" time="0.0"/>
-  <testcase name="cd_min_amount()" classname="banking.CreateProcesserTest" time="0.001"/>
-  <testcase name="create_a_account_with_account_in_bank_already()" classname="banking.CreateProcesserTest" time="0.0"/>
-  <testcase name="create_checking_pass()" classname="banking.CreateProcesserTest" time="0.0"/>
+  <testcase name="cd_min_amount()" classname="banking.CreateProcesserTest" time="0.0"/>
+  <testcase name="create_a_account_with_account_in_bank_already()" classname="banking.CreateProcesserTest" time="0.001"/>
+  <testcase name="create_checking_pass()" classname="banking.CreateProcesserTest" time="0.001"/>
   <testcase name="create_two_accounts_in_a_row()" classname="banking.CreateProcesserTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

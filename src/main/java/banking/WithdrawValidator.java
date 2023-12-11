@@ -14,15 +14,15 @@ public class WithdrawValidator {
 	private void processCommandString(String[] commandParsed) {
 
 		try {
-			accountID = Integer.parseInt(commandParsed[1]);
-		} catch (Exception e) {
-			accountID = -1;
-		}
-
-		try {
 			amount = Double.parseDouble(commandParsed[2]);
 		} catch (Exception e) {
 			amount = -1;
+		}
+
+		try {
+			accountID = Integer.parseInt(commandParsed[1]);
+		} catch (Exception e) {
+			accountID = -1;
 		}
 
 	}
