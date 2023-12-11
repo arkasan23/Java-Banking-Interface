@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.TransferProcessorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:37:37" hostname="DESKTOP-2SPJV76" time="0.004">
+<testsuite name="banking.TransferProcessorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:54:54" hostname="DESKTOP-2SPJV76" time="0.007">
   <properties/>
   <testcase name="transfer_zero()" classname="banking.TransferProcessorTest" time="0.001"/>
   <testcase name="transfer_max_from_checking()" classname="banking.TransferProcessorTest" time="0.0"/>
   <testcase name="only_deposit_amount_actually_withdrawn()" classname="banking.TransferProcessorTest" time="0.001"/>
   <testcase name="transfer_from_checking_to_checking()" classname="banking.TransferProcessorTest" time="0.0"/>
   <testcase name="transfer_each_way_once()" classname="banking.TransferProcessorTest" time="0.0"/>
-  <testcase name="transfer_twice_from_checking()" classname="banking.TransferProcessorTest" time="0.001"/>
+  <testcase name="transfer_twice_from_checking()" classname="banking.TransferProcessorTest" time="0.0"/>
   <testcase name="transfer_from_saving_to_saving()" classname="banking.TransferProcessorTest" time="0.0"/>
-  <testcase name="transfer_from_checking_to_saving()" classname="banking.TransferProcessorTest" time="0.0"/>
-  <testcase name="transfer_max_from_saving()" classname="banking.TransferProcessorTest" time="0.0"/>
+  <testcase name="transfer_from_checking_to_saving()" classname="banking.TransferProcessorTest" time="0.001"/>
+  <testcase name="transfer_max_from_saving()" classname="banking.TransferProcessorTest" time="0.001"/>
   <testcase name="transfer_from_saving_to_checking()" classname="banking.TransferProcessorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

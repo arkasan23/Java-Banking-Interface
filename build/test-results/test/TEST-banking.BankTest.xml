@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.BankTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:37:37" hostname="DESKTOP-2SPJV76" time="0.008">
+<testsuite name="banking.BankTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:54:53" hostname="DESKTOP-2SPJV76" time="0.008">
   <properties/>
   <testcase name="deposit_money_by_id()" classname="banking.BankTest" time="0.001"/>
   <testcase name="withdraw_twice()" classname="banking.BankTest" time="0.0"/>
-  <testcase name="bank_initially_has_no_accounts()" classname="banking.BankTest" time="0.002"/>
-  <testcase name="withdraw_money_by_id()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="bank_initially_has_no_accounts()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="withdraw_money_by_id()" classname="banking.BankTest" time="0.0"/>
   <testcase name="deposit_twice()" classname="banking.BankTest" time="0.0"/>
   <testcase name="add_one_account_to_bank()" classname="banking.BankTest" time="0.0"/>
   <testcase name="add_two_account_to_bank()" classname="banking.BankTest" time="0.001"/>

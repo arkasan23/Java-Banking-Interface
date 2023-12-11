@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.AccountTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:37:37" hostname="DESKTOP-2SPJV76" time="0.018">
+<testsuite name="banking.AccountTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:54:53" hostname="DESKTOP-2SPJV76" time="0.019">
   <properties/>
-  <testcase name="apr_is_supplied_apr_when_account_created()" classname="banking.AccountTest" time="0.013"/>
+  <testcase name="apr_is_supplied_apr_when_account_created()" classname="banking.AccountTest" time="0.014"/>
   <testcase name="balance_cannot_be_negative_when_withdrawing()" classname="banking.AccountTest" time="0.0"/>
-  <testcase name="test()" classname="banking.AccountTest" time="0.001"/>
-  <testcase name="balance_decreases_by_amount_withdrawn()" classname="banking.AccountTest" time="0.001"/>
-  <testcase name="balance_increases_by_the_amount_deposited()" classname="banking.AccountTest" time="0.0"/>
-  <testcase name="depositing_twice()" classname="banking.AccountTest" time="0.0"/>
-  <testcase name="withdrawing_twice()" classname="banking.AccountTest" time="0.001"/>
+  <testcase name="test()" classname="banking.AccountTest" time="0.0"/>
+  <testcase name="balance_decreases_by_amount_withdrawn()" classname="banking.AccountTest" time="0.0"/>
+  <testcase name="balance_increases_by_the_amount_deposited()" classname="banking.AccountTest" time="0.001"/>
+  <testcase name="depositing_twice()" classname="banking.AccountTest" time="0.001"/>
+  <testcase name="withdrawing_twice()" classname="banking.AccountTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
