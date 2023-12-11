@@ -67,11 +67,11 @@ public class Account {
 		decimalFormat.setRoundingMode(RoundingMode.FLOOR);
 
 		String type = this.getAccountType();
-		String id = Integer.toString(this.getId());
-		String balance = decimalFormat.format(this.getBalance());
-		String apr = decimalFormat.format(this.getApr());
+		String outputId = Integer.toString(this.getId());
+		String outputBalance = decimalFormat.format(this.getBalance());
+		String outoutApr = decimalFormat.format(this.getApr());
 
-		return type + " " + id + " " + balance + " " + apr;
+		return type + " " + outputId + " " + outputBalance + " " + outoutApr;
 	}
 
 	public double getBalance() {

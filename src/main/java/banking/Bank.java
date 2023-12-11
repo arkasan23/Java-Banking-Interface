@@ -18,10 +18,6 @@ public class Bank {
 		accounts.put(account.getId(), account);
 	}
 
-	public void removeAccount(Account account) {
-		accounts.remove(account.getId());
-	}
-
 	public Account retrieveAccount(int id) {
 		return accounts.get(id);
 	}

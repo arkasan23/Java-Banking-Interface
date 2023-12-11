@@ -26,6 +26,22 @@ public class DepositValidator {
 		return false;
 	}
 
+	private boolean validateSaving() {
+		if (amount > 2500) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+
+	public boolean validateChecking() {
+		if (amount > 1000) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+
 	private boolean validateAmount() {
 		if (amount < 0) {
 			return false;
@@ -34,18 +50,13 @@ public class DepositValidator {
 		Account account = bank.retrieveAccount(accountID);
 
 		if (account.getAccountType().equals("Savings")) {
-			if (amount > 2500) {
-				return false;
-			}
+			return validateSaving();
 		} else if (account.getAccountType().equals("Checking")) {
-			if (amount > 1000) {
-				return false;
-			}
+			return validateChecking();
 		} else {
 			return false;
 		}
 
-		return true;
 	}
 
 	private void processCommand(String[] commandParsed) {
