@@ -4,6 +4,7 @@ public class DepositValidator {
 
 	private int accountID;
 	private double amount;
+	private String[] commandParsed;
 
 	private Bank bank;
 
@@ -17,13 +18,12 @@ public class DepositValidator {
 			return false;
 		}
 
-		for (Account account : bank.getAccounts().values()) {
-			if (account.getId() == accountID) {
-				return true;
-			}
+		if (bank.getAccounts().containsKey(accountID)) {
+			return true;
+		} else {
+			return false;
 		}
 
-		return false;
 	}
 
 	private boolean validateSaving() {
@@ -75,19 +75,22 @@ public class DepositValidator {
 
 	}
 
-	public boolean isCommandValid(String[] commandParsed) {
-		processCommand(commandParsed);
-
+	private boolean validateMisc() {
 		if (commandParsed.length != 3) {
 			return false;
 		}
 
-		if (!this.validateAccountId()) {
+		if (this.validateAccountId() && this.validateAmount()) {
+			return true;
+		} else {
 			return false;
 		}
-		if (!this.validateAmount()) {
-			return false;
-		}
-		return true;
+	}
+
+	public boolean isCommandValid(String[] commandParsed) {
+		processCommand(commandParsed);
+		this.commandParsed = commandParsed;
+
+		return validateMisc();
 	}
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.MasterControlTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-11T07:18:02" hostname="DESKTOP-2SPJV76" time="0.026">
+<testsuite name="banking.MasterControlTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-11T07:29:57" hostname="DESKTOP-2SPJV76" time="0.024">
   <properties/>
-  <testcase name="typo_in_create_command_is_invalid()" classname="banking.MasterControlTest" time="0.001"/>
-  <testcase name="sample_make_sure_this_passes_unchanged()" classname="banking.MasterControlTest" time="0.022"/>
+  <testcase name="typo_in_create_command_is_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="sample_make_sure_this_passes_unchanged()" classname="banking.MasterControlTest" time="0.021"/>
   <testcase name="invalid_to_create_accounts_with_same_accounts()" classname="banking.MasterControlTest" time="0.0"/>
   <testcase name="typo_in_deposit_command_is_invalid()" classname="banking.MasterControlTest" time="0.0"/>
   <testcase name="two_typo_commands_both_invalid()" classname="banking.MasterControlTest" time="0.0"/>
