@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="banking.WithdrawProcessorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:54:54" hostname="DESKTOP-2SPJV76" time="0.006">
+<testsuite name="banking.WithdrawProcessorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:55:59" hostname="DESKTOP-2SPJV76" time="0.003">
   <properties/>
-  <testcase name="withdraw_cd_after_12_months()" classname="banking.WithdrawProcessorTest" time="0.001"/>
-  <testcase name="withdraw_zero()" classname="banking.WithdrawProcessorTest" time="0.0"/>
+  <testcase name="withdraw_cd_after_12_months()" classname="banking.WithdrawProcessorTest" time="0.0"/>
+  <testcase name="withdraw_zero()" classname="banking.WithdrawProcessorTest" time="0.001"/>
   <testcase name="withdraw_after_month_has_pass()" classname="banking.WithdrawProcessorTest" time="0.0"/>
   <testcase name="withdraw_max_from_saving()" classname="banking.WithdrawProcessorTest" time="0.0"/>
-  <testcase name="withdraw_more_than_cd_balance()" classname="banking.WithdrawProcessorTest" time="0.001"/>
-  <testcase name="withdraw_max_from_checking()" classname="banking.WithdrawProcessorTest" time="0.0"/>
+  <testcase name="withdraw_more_than_cd_balance()" classname="banking.WithdrawProcessorTest" time="0.0"/>
+  <testcase name="withdraw_max_from_checking()" classname="banking.WithdrawProcessorTest" time="0.001"/>
   <testcase name="withdraw_multiple_times_from_checking()" classname="banking.WithdrawProcessorTest" time="0.0"/>
-  <testcase name="withdraw_from_multiple_accounts()" classname="banking.WithdrawProcessorTest" time="0.001"/>
+  <testcase name="withdraw_from_multiple_accounts()" classname="banking.WithdrawProcessorTest" time="0.0"/>
   <testcase name="withdraw_from_saving()" classname="banking.WithdrawProcessorTest" time="0.0"/>
-  <testcase name="withdraw_from_checking()" classname="banking.WithdrawProcessorTest" time="0.0"/>
-  <testcase name="withdraw_from_account_that_has_no_money()" classname="banking.WithdrawProcessorTest" time="0.001"/>
-  <testcase name="withdraw_more_than_in_checking_balance()" classname="banking.WithdrawProcessorTest" time="0.001"/>
+  <testcase name="withdraw_from_checking()" classname="banking.WithdrawProcessorTest" time="0.001"/>
+  <testcase name="withdraw_from_account_that_has_no_money()" classname="banking.WithdrawProcessorTest" time="0.0"/>
+  <testcase name="withdraw_more_than_in_checking_balance()" classname="banking.WithdrawProcessorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
