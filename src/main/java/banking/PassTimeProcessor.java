@@ -5,7 +5,6 @@ import java.util.Iterator;
 public class PassTimeProcessor {
 
 	private Bank bank;
-	private int amountOfMonths;
 
 	public PassTimeProcessor(Bank bank) {
 		this.bank = bank;
@@ -30,7 +29,7 @@ public class PassTimeProcessor {
 	}
 
 	public void processCommand(String[] commandParsed) {
-		amountOfMonths = Integer.parseInt(commandParsed[1]);
+		int amountOfMonths = Integer.parseInt(commandParsed[1]);
 
 		for (int i = 0; i < amountOfMonths; i++) {
 

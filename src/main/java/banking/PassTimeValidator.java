@@ -17,11 +17,7 @@ public class PassTimeValidator {
 	}
 
 	public boolean validateAmount() {
-		if (amount < 1 || amount > 60) {
-			return false;
-		}
-
-		return true;
+		return amount >= 1 && amount <= 60;
 	}
 
 	public boolean isCommandValid(String[] commandParsed) {
@@ -31,10 +27,6 @@ public class PassTimeValidator {
 			return false;
 		}
 
-		if (!this.validateAmount()) {
-			return false;
-		}
-
-		return true;
+		return this.validateAmount();
 	}
 }

@@ -18,28 +18,16 @@ public class DepositValidator {
 			return false;
 		}
 
-		if (bank.getAccounts().containsKey(accountID)) {
-			return true;
-		} else {
-			return false;
-		}
+		return bank.getAccounts().containsKey(accountID);
 
 	}
 
 	private boolean validateSaving() {
-		if (amount > 2500) {
-			return false;
-		} else {
-			return true;
-		}
+		return !(amount > 2500);
 	}
 
 	public boolean validateChecking() {
-		if (amount > 1000) {
-			return false;
-		} else {
-			return true;
-		}
+		return !(amount > 1000);
 	}
 
 	private boolean validateAmount() {
@@ -80,11 +68,7 @@ public class DepositValidator {
 			return false;
 		}
 
-		if (this.validateAccountId() && this.validateAmount()) {
-			return true;
-		} else {
-			return false;
-		}
+		return this.validateAccountId() && this.validateAmount();
 	}
 
 	public boolean isCommandValid(String[] commandParsed) {
