@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.MasterControlTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:37:37" hostname="DESKTOP-2SPJV76" time="0.037">
+  <properties/>
+  <testcase name="typo_in_create_command_is_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="sample_make_sure_this_passes_unchanged()" classname="banking.MasterControlTest" time="0.032"/>
+  <testcase name="invalid_to_create_accounts_with_same_accounts()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="typo_in_deposit_command_is_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="two_typo_commands_both_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="create_account()" classname="banking.MasterControlTest" time="0.001"/>
+  <system-out><![CDATA[[Savings 12345678 1000.50 0.60, Deposit 12345678 700, Transfer 98765432 12345678 300, Cd 23456789 2000.00 1.20, Deposit 12345678 5000]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

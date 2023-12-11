@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.WithdrawValidatorTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2023-12-11T06:37:37" hostname="DESKTOP-2SPJV76" time="0.011">
+  <properties/>
+  <testcase name="withdraw_from_account_that_doesnt_exist()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_max_checking_account()" classname="banking.WithdrawValidatorTest" time="0.001"/>
+  <testcase name="without_amount_specified()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="cannot_withdraw_from_cd_before_12_month()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="extra_arguments_after_command()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="can_withdraw_from_saving_after_a_month()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="amount_in_words()" classname="banking.WithdrawValidatorTest" time="0.001"/>
+  <testcase name="can_withdraw_zero()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="cant_withdraw_below_zero()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_full_amount_from_cd_after_12_month_more_than_account_has()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="case_insenstive()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_more_than_max_for_saving()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_mutliple_twice_from_checking()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="misspelled_withdraw()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_max_saving_account()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="account_id_is_less_than_8_digits()" classname="banking.WithdrawValidatorTest" time="0.001"/>
+  <testcase name="only_with_withdraw_command()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="with_only_amount()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="account_id_is_more_than_8_digits()" classname="banking.WithdrawValidatorTest" time="0.001"/>
+  <testcase name="withdraw_and_string_after()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_full_amount_from_cd_after_12_month()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="cannot_withdraw_twice_in_a_month_from_saving()" classname="banking.WithdrawValidatorTest" time="0.001"/>
+  <testcase name="withdraw_from_checking_account()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_exact_cd_amount()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_from_saving_account()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_more_than_max_for_checking()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="withdraw_less_than_cd_amount()" classname="banking.WithdrawValidatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
