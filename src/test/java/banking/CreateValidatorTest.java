@@ -227,6 +227,11 @@ public class CreateValidatorTest {
 	}
 
 	@Test
+	public void extra_argument_after_create_checking() {
+		assertFalse(commandValidator.isCommandValid("Create checking 12345678 .5 fifteen"));
+	}
+
+	@Test
 	public void less_than_8_digits_for_account() {
 
 		assertFalse(commandValidator.isCommandValid("Create checking 1234567 .5"));

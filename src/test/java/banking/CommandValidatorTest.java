@@ -34,4 +34,14 @@ public class CommandValidatorTest {
 	public void withdraw_command() {
 		assertTrue(commandValidator.isCommandValid("Withdraw 87654321 100"));
 	}
+
+	@Test
+	public void transfer_command() {
+		assertTrue(commandValidator.isCommandValid("Transfer 87654321 11111111 250"));
+	}
+
+	@Test
+	public void pass_time() {
+		assertTrue(commandValidator.isCommandValid("pass 1"));
+	}
 }

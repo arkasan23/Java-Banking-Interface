@@ -77,10 +77,10 @@ public class WithdrawValidator {
 			return validateSaving(account);
 		} else if (account.getAccountType().equals("Checking")) {
 			return validateChecking();
-		} else if (account.getAccountType().equals("Cd")) {
+		} else {
 			return validateCD(account);
 		}
-		return false;
+
 	}
 
 	public boolean isCommandValid(String[] commandParsed) {
